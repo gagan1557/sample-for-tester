@@ -1,0 +1,33 @@
+{
+  
+    "name": "your-package-name",
+  
+    "version": "1.0.0",
+  
+    "scripts": {
+  
+      
+    "build": "webpack"
+  
+    },
+  
+    "dependencies": {
+  
+      
+    "express-oauth2-jwt-bearer": "^1.6.0",
+  
+      
+    "webpack": "^5.91.0"
+  
+    },
+  
+    "devDependencies": {
+  
+      
+    "gh-pages": "^6.1.1",
+  
+      
+    "webpack-cli": "^5.1.4"
+  
+    }
+}
