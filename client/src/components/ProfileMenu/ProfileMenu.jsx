@@ -1,6 +1,8 @@
 import React from 'react'
 import {Avatar, Menu} from '@mantine/core'
 import { useNavigate } from 'react-router-dom'
+import Bookings from "../../pages/Bookings/Bookings";
+
 const ProfileMenu = ({user, logout}) => {
     const navigate = useNavigate()
   return (
@@ -13,7 +15,7 @@ const ProfileMenu = ({user, logout}) => {
                 Favourites
             </Menu.Item>
 
-            <Menu.Item onClick={()=> navigate("./bookings", {replace: true})}>
+            <Menu.Item onClick={()=> navigate("/bookings", {replace: true})}>
                 Bookings
             </Menu.Item>
 

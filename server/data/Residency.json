@@ -245,7 +245,7 @@
     "address": "Street 18",
     "city": "Delhi",
     "country": "India",
-    "image": "https://res.cloudinary.com/dkg6ajfen/image/upload/v1684045778/zdc3pb1d0kgfwxuk8hch.jpg",
+    "image": "https://drive.google.com/file/d/1g9KZF0-YDg3U0rj6dPARDSAxTeSk9aAl/view?usp=drive_link",
     "facilities": { "bedrooms": 5, "parkings": 2, "bathrooms": 3 },
     "userEmail": "ahmadrao925@gmail.com",
     "createdAt": { "$date": "2023-05-14T06:31:09.883Z" },
@@ -259,10 +259,15 @@
     "address": "Street 19",
     "city": "Mumbai",
     "country": "India",
-    "image": "https://res.cloudinary.com/dkg6ajfen/image/upload/v1686773421/ihdmmu9mjsors2rvlu4j.png",
+    "image": "https://drive.google.com/file/d/1g9KZF0-YDg3U0rj6dPARDSAxTeSk9aAl/view?usp=drive_link",
     "facilities": { "bedrooms": 5, "parkings": 5, "bathrooms": 8 },
     "userEmail": "zain@gaintime.io",
     "createdAt": { "$date": "2023-06-14T20:11:01.081Z" },
     "updatedAt": { "$date": "2023-06-14T20:11:01.081Z" }
   }
 ]
+
+
+
+
+

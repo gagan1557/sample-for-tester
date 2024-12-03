@@ -13,9 +13,9 @@ export const createResidency = asyncHandler(async (req, res) => {
     facilities,
     image,
     userEmail,
-  } = req.body.data;
+  } = req.body;
 
-  console.log(req.body.data);
+  console.log(req.body);
   try {
     const residency = await prisma.residency.create({
       data: {
@@ -53,6 +53,7 @@ export const getAllResidencies = asyncHandler(async (req, res) => {
 // function to get a specific document/residency
 export const getResidency = asyncHandler(async (req, res) => {
   const { id } = req.params;
+  console.log(id, 'id')
 
   try {
     const residency = await prisma.residency.findUnique({

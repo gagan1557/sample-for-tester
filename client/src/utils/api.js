@@ -3,8 +3,8 @@ import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
-  // baseURL: "http://localhost:8000/api",
-  baseURL: "https://rdg-real-estate-backend.onrender.com",
+  baseURL: "http://localhost:8000/api",
+  // baseURL: "https://rdg-real-estate-backend.onrender.com/api",
 });
 
 export const getAllProperties = async () => {
@@ -39,16 +39,16 @@ export const getProperty = async (id) => {
   }
 };
 
-export const createUser = async (email, token) => {
+export const createUser = async (email) => {
   try {
     await api.post(
       `/user/register`,
       { email },
-      {
-        headers: {
-            Authorization: `Bearer ${token}`,
-        },
-      }
+      // {
+      //   headers: {
+      //       Authorization: `Bearer ${token}`,
+      //   },
+      // }
     );
   } catch (error) {
     toast.error("Something went wrong, Please try again");
